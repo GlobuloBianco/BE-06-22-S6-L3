@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "82cdf76d-90e8-475a-99a9-e039dedfa674",
+		"name": "BE-06-22-S6-L2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25814352"
+	},
+	"item": [
+		{
+			"name": "[Get] ITA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/istruzione/it",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"istruzione",
+						"it"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Get] ENG",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/istruzione/en", 
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"istruzione",
+						"en"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Get] ITA Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/istruzione/it",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"istruzione",
+						"it"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Get] ERRORE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/istruzione/sdgsdgs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"istruzione",
+						"sdgsdgs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Get] Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

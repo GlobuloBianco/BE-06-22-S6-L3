@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "27b17816-4028-4bee-8009-baaa3f04d143",
+		"name": "BE-06-22-S6-L3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25814352"
+	},
+	"item": [
+		{
+			"name": "get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/edificio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"edificio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"lorem\",\r\n    \"indirizzo\": \"via lorem 20\",\r\n    \"citta\": \"LORE2313M\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/edificio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"edificio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"lorem3123\",\r\n    \"indirizzo\": \"via lorem 53\",\r\n    \"citta\": \"MarioRossi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/edificio/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"edificio",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "del",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"lorem3123\",\r\n    \"indirizzo\": \"via lorem 53\",\r\n    \"citta\": \"LOREM312\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/edificio/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"edificio",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get page",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "12131415161110987654321            \"indirizzo\": \"Via lorem 16\",            \"citta\": \"GENOVA\"        },        {            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{",
+					"host": [
+						"12131415161110987654321            \"indirizzo\": \"Via lorem 16\",            \"citta\": \"GENOVA\"        },        {            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\": [{{            \"id\": 1,            \"nome\": \"Lorem Srl\",            \"id\": 2,        {        },            \"citta\": \"LORE2313M\"            \"indirizzo\": \"via lorem 20\",            \"nome\": \"lorem\",            \"id\": 6,        {    \"content\""
+					],
+					"port": " [{"
+				}
+			},
+			"response": []
+		}
+	]
+}
